@@ -1,2 +1,2 @@
 # meus-estudos
-contem exercicios de programação
+contem meus estudos em javaScript
