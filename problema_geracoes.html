@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>")
+    }
+    function mostra(mensagem) {
+        document.write(mensagem);
+        pulaLinha();
+    }
+ // ano atual que é 2022 e ano de 1500 que foi o descobrimento do Brasil   
+anoAtual = 2022
+anoVelho = 1500
+// anos em media que os brasileiros tinham filhos
+geracao = 28
+// o calculo vai mostra em media quantas gerações passaram desde 1500 ate os dias atuais
+mostra("Passaram "+Math.round((anoAtual-anoVelho)/geracao) + " gerações desde 1500 anos")
+
+
+</script>

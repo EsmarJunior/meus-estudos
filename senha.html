@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<script>
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+    function mostrar(mensagem) {
+        document.write(mensagem);
+    }
+var nome = prompt("Digite seu nome: ");    
+
+var senha = prompt(nome + ", informe uma palavra para definir sua senha : ");
+    alert(nome + ", sua senha foi criada com sucesso!");
+
+var mostrarSenha = prompt("Digite sua senha: ");
+
+if(mostrarSenha == senha) {
+    mostrar("Acesso liberado!");
+}else {
+    alert("Acesso negado!");
+}
+
+
+</script>
